@@ -20,12 +20,12 @@ nimble install sysinfo
 
 
 ## Compilation
-* For Linux, we compile the nim reverse shell with the following command:
+* For Linux, you can compile the nim reverse shell with the following command:
 ```bash
 nim c -d:nodebug revshell.nim 
 ```
 
-* For Windows, we compile the nim reverse shell with the following commmnd:
+* For Windows, you can compile the nim reverse shell with the following commmnd:
 ```bash
 nim c -d:mingw --app:gui revshell.nim 
 ```
